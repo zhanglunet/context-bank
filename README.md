@@ -8,7 +8,7 @@
 
 ## 网站
 
-https://zhanglunet.github.io/context-bank/
+https://context.zhanglu.net/
 
 ## 本地运行
 
@@ -21,7 +21,7 @@ Node.js 22+：`npm ci` → `npm test` → `npm run build` → `npm run dev`，�
 
 ## 发布
 
-main通过CI后构建并发布GitHub Pages；内容PR合并即可更新。Cloudflare Workers可用`npm run deploy`手动部署，需维护者本机Wrangler登录，凭据不进入仓库。
+main通过CI后构建并发布GitHub Pages；内容PR合并即可更新。自定义域名由Cloudflare Worker读取GitHub Pages发布内容，内容PR合并后自动更新。Worker配置修改用`npm run deploy`，需维护者本机Wrangler登录，凭据不进入仓库。
 可信作者名单默认空；首次贡献短审，精选与实测标识单独维护。
 
 ## 许可
