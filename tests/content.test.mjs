@@ -7,3 +7,4 @@ test('reject traversal, unsafe URLs, scripts and credentials',()=>{assert.throws
 test('reject incomplete and fake verification',()=>{assert.throws(()=>validate({...good,title:''},'x'));assert.throws(()=>validate({...good,compatibility:[{tool:'AI',verification:'verified'}]},'x'));});
 test('slug rejects punctuation and empty scenario list',()=>{assert.throws(()=>validate({...good,id:'../x'},'x'));assert.throws(()=>validate({...good,scenarios:[]},'x'));});
 test('skills require standard agent frontmatter',()=>{assert.throws(()=>validate({...good,type:'skill'},'x'));assert.equal(validate({...good,type:'skill',name:'sample',description:'Sample skill'},'x').type,'skill');});
+test('reject invalid or HTML-bearing publication dates',()=>{for(const updated_at of ['<img src=x onerror=alert(1)>','2026-02-30',{},'2026-13-01'])assert.throws(()=>validate({...good,updated_at},'x'));assert.equal(validate({...good,updated_at:'2026-10-18'},'x').updated_at,'2026-10-18');});
