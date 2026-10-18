@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "livepowers-nightly-crystallization-review",
+  "type": "skill",
+  "repository": "https://github.com/zhanglunet/livepowers",
+  "path": "skills/nightly-crystallization-review/SKILL.md",
+  "ref": "454fd2a0f882ada65f97392709872a71582596da",
+  "license": "MIT",
+  "title": "收工复盘：从证据里挑固化候选",
+  "summary": "清理不完整记录，选择可复用路径，生成待验收成果与晨报。",
+  "scenarios": [
+    "研发"
+  ],
+  "compatibility": [
+    {
+      "tool": "Livepowers工具链与Agent客户端",
+      "verification": "unverified"
+    }
+  ],
+  "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。"
+}

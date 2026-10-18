@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "livepowers-env-scan-ontology",
+  "type": "skill",
+  "repository": "https://github.com/zhanglunet/livepowers",
+  "path": "skills/env-scan-ontology/SKILL.md",
+  "ref": "454fd2a0f882ada65f97392709872a71582596da",
+  "license": "MIT",
+  "title": "接入新系统，先建立环境与业务对象清单",
+  "summary": "检查库表、接口和语义，记录环境变化与待确认定义。",
+  "scenarios": [
+    "研发"
+  ],
+  "compatibility": [
+    {
+      "tool": "Livepowers工具链与Agent客户端",
+      "verification": "unverified"
+    }
+  ],
+  "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。"
+}

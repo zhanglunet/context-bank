@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "qcc-ipr-portfolio",
+  "type": "skill",
+  "repository": "https://github.com/zhanglunet/qcc",
+  "path": "skills/qcc-ipr-portfolio/SKILL.md",
+  "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+  "license": "Apache-2.0",
+  "title": "企业知识产权与数字资产清单",
+  "summary": "整理专利、商标、著作权及互联网资产，明确数据覆盖范围。",
+  "scenarios": [
+    "企业调研"
+  ],
+  "compatibility": [
+    {
+      "tool": "企查查MCP/API与Agent客户端",
+      "verification": "unverified"
+    }
+  ],
+  "usage_notes": "依赖企查查账号、授权的MCP/API与配额；数据能力、收费和可用字段以服务商当前规则为准。真实查询可能涉及个人信息，应先确认查询目的与权限。同名与历史线索需人工复核，不直接作为录用、授信或法律结论。未执行真实查询。"
+}

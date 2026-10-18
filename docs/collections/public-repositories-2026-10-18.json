@@ -1,0 +1,715 @@
+{
+  "collected_at": "2026-10-18",
+  "new_entries": 33,
+  "entries": [
+    {
+      "schema_version": 1,
+      "id": "livepowers-acceptance-gates",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/acceptance-gates/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "能力上线前的四道验收门",
+      "summary": "区分规格、实现、运行与业务结果，凭可核对证据验收。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "d95e32d8e2b7655d44d51598263d5a1f3ca6595e212fde605a97fa9a6986d7c2"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-agent-harness-for-tools",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/agent-harness-for-tools/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "工具已有，Agent用不稳：补齐执行约束",
+      "summary": "围绕已有CLI、MCP和API定义计划、检查点、权限与失败恢复。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "848810b0b920f9b4865eb3a6bce82c6dfe80559760fd8fa1862c199938398999"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-auditable-agent-comms",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/auditable-agent-comms/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "让多Agent协作有据可查",
+      "summary": "按信任域设计协作通道，保留可审计、可回放的消息与结果。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "05923b9df8e546577c36db6b6a9ef1b16db8eb5a3c5d1be0e5a6d7eeea988956"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-crystallize-to-system1",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/crystallize-to-system1/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "把成功探索固化成可复用能力",
+      "summary": "评估重复频率、稳定性与可验证性，再把成功路径固化为能力包。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "3fb63dff2ed8af2c9a7bf94b22c9cd18daba231af7c471208e2dc3dc565ce278"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-digital-role-spec",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/digital-role-spec/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "把岗位拆成人与Agent的职责",
+      "summary": "明确数字岗位的职责、权限、考核、成本和人工升级路径。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "20e10c18d8f722a8b2e3a50024f204e3478affa0e460f909527c32215c1711a5"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-env-scan-ontology",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/env-scan-ontology/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "接入新系统，先建立环境与业务对象清单",
+      "summary": "检查库表、接口和语义，记录环境变化与待确认定义。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "9203adfeaa11636422e9f89a187d6a85b32ddddec1d7ff523e657ce7dcef87ac"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-explore-with-evidence",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/explore-with-evidence/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "新任务探索：先定预算，再留证据",
+      "summary": "在已定义的业务范围内探索，记录尝试、结果和停止条件。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "bc45659268a8ba7733eb3838394602035baf78a6e66a09945b82aba9ad771176"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-fde-delivery",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/fde-delivery/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "现场交付之后，留下可复用资产",
+      "summary": "交付功能同时沉淀领域定义、模板、技能和验收样例。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "5c85a890db57fd30c195479bc3f29c4e681005edf431cd842d4add2625c9eb38"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-living-surface",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/living-surface/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "把一次性分析变成稳定功能",
+      "summary": "区分固定页面、临时分析和新增固化结构，新增功能经过验收再上线。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "9b8dc594bc157637cbfa4f705f9c4e220679fc1b306f7298822fea165c50f216"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-night-loop-planning",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/night-loop-planning/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "长程与夜间任务：可暂停、可恢复地规划",
+      "summary": "判断哪些任务适合延后执行，规划预算、分工、检查点和晨间交付。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "d208f25ec25dbd0f2939aca934e7b2b259f021361a0d9d56e47ea79cbfa2a145"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-nightly-crystallization-review",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/nightly-crystallization-review/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "收工复盘：从证据里挑固化候选",
+      "summary": "清理不完整记录，选择可复用路径，生成待验收成果与晨报。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "7529267bc857abe0212789e558df9b4fc248e1ea06b1d7774255eee9417adb6c"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-oltp-action-safety",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/oltp-action-safety/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "生产写操作：预演、审批、执行与回撤",
+      "summary": "为修改生产状态建立幂等、验证、补偿和人工决策边界。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "08192ad3775f633bce56af5d5d3db0b69d4aee8b11b708e4400c4734576fb86e"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-ontology-evolution",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/ontology-evolution/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "业务定义变了，怎样留下变更依据",
+      "summary": "把新增对象、语义冲突和规则变化整理为可评审的定义变更。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "5ed401ced17de3a7b1cb8f4062cb7bd8d76c2e896e9dbf060e2a92633cb01951"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-ontology-grounded-spec",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/ontology-grounded-spec/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "业务需求先写清对象、口径与验收",
+      "summary": "将自然语言需求转成有业务定义和完成条件的实现规格。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "8bd46bb286c4b707c9137e716876c8c8a1259fb04485da59a815d2928a6b283c"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-outcome-ledger",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/outcome-ledger/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "AI到底省了多少：建立结果与成本台账",
+      "summary": "先记基线，再统计验收任务、失败、返工和接管成本。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "671a7148d3d0f6316c13520de3361c35f0030b2fa5e535db7c5f85f22ca2b963"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-system1-first",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/system1-first/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "先找现成能力，再从头推理",
+      "summary": "规范化请求并匹配已有能力，只把未覆盖的部分交给探索。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "649423da80b47fba7c3e9da7aa70ad65aaba43c3c352a5d2a1824d7e40dfca33"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-takeover-handling",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/takeover-handling/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "Agent卡住后，把接管材料交清楚",
+      "summary": "触及预算或重复失败时留下诊断、证据、未完成项和接续方案。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "7c61ebf5eebde436325325047d13bf33549c42672e29ae42ce3bcb0fc2e14842"
+    },
+    {
+      "schema_version": 1,
+      "id": "livepowers-writing-livepowers-skills",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/livepowers",
+      "path": "skills/writing-livepowers-skills/SKILL.md",
+      "ref": "454fd2a0f882ada65f97392709872a71582596da",
+      "license": "MIT",
+      "title": "从失败回放开始编写团队Skill",
+      "summary": "先观察缺少技能时的失败，再编写约束并回放验收。",
+      "scenarios": [
+        "研发"
+      ],
+      "compatibility": [
+        {
+          "tool": "Livepowers工具链与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。",
+      "body_sha256": "2837f860d666c8b46718aeb2bbf0642311d051e111b20467c6ba60e78ea5cfc9"
+    },
+    {
+      "schema_version": 1,
+      "id": "mind-kit-second-brain",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/mind-kit",
+      "path": "skills/workbuddy-second-brain/SKILL.md",
+      "ref": "9e70ebce2cbe0c04858437dd490bfac3a1052f4a",
+      "license": "MIT",
+      "title": "安装自己的本地第二大脑",
+      "summary": "公开版只初始化本地Vault；飞书同步需要另行获得完整发行包。",
+      "scenarios": [
+        "知识管理"
+      ],
+      "compatibility": [
+        {
+          "tool": "本机Vault安装环境",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "公开版是Vault-only，不含飞书同步连接器；不要把完整发行包能力当成公开版能力。需要来源仓库安装器与Python环境。个人资料留在自己的Vault，不上传上下文银行。未在本机执行安装或同步。",
+      "body_sha256": "6e229404eb6abd1a820643bb4b90e5d9e41d1c6bd365773c10ec31093627487c"
+    },
+    {
+      "schema_version": 1,
+      "id": "qcc-anchor",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/qcc",
+      "path": "skills/qcc-anchor/SKILL.md",
+      "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+      "license": "Apache-2.0",
+      "title": "查企业前，先锁定唯一主体",
+      "summary": "把简称、品牌名和企业名解析为统一社会信用代码，避免同名误查。",
+      "scenarios": [
+        "企业调研"
+      ],
+      "compatibility": [
+        {
+          "tool": "企查查MCP/API与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "依赖企查查账号、授权的MCP/API与配额；数据能力、收费和可用字段以服务商当前规则为准。真实查询可能涉及个人信息，应先确认查询目的与权限。同名与历史线索需人工复核，不直接作为录用、授信或法律结论。未执行真实查询。",
+      "body_sha256": "39abfdad7f5a6617165bd213b10f4eb2fb3556d5bb2dd810923e94e5cbda8a37"
+    },
+    {
+      "schema_version": 1,
+      "id": "qcc-basic-profile",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/qcc",
+      "path": "skills/qcc-basic-profile/SKILL.md",
+      "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+      "license": "Apache-2.0",
+      "title": "企业基础档案：一次整理工商概况",
+      "summary": "围绕已锁定主体汇集登记、主要人员、分支机构与年报等基础信息。",
+      "scenarios": [
+        "企业调研"
+      ],
+      "compatibility": [
+        {
+          "tool": "企查查MCP/API与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "依赖企查查账号、授权的MCP/API与配额；数据能力、收费和可用字段以服务商当前规则为准。真实查询可能涉及个人信息，应先确认查询目的与权限。同名与历史线索需人工复核，不直接作为录用、授信或法律结论。未执行真实查询。",
+      "body_sha256": "60eb26ec178daeeb6d50197623fc9e4a0676ca32cd247adb99ce84cbadcb1c35"
+    },
+    {
+      "schema_version": 1,
+      "id": "qcc-executive-background",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/qcc",
+      "path": "skills/qcc-executive-background/SKILL.md",
+      "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+      "license": "Apache-2.0",
+      "title": "高管关联与风险资料核对",
+      "summary": "以企业主体和姓名双重限定查询范围，区分当前与历史记录。",
+      "scenarios": [
+        "企业调研"
+      ],
+      "compatibility": [
+        {
+          "tool": "企查查MCP/API与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "依赖企查查账号、授权的MCP/API与配额；数据能力、收费和可用字段以服务商当前规则为准。真实查询可能涉及个人信息，应先确认查询目的与权限。同名与历史线索需人工复核，不直接作为录用、授信或法律结论。未执行真实查询。",
+      "body_sha256": "58fd23dafcea671859e5e50750e4fc0a2fc33ab3312665288925016232b8fd65"
+    },
+    {
+      "schema_version": 1,
+      "id": "qcc-ipr-portfolio",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/qcc",
+      "path": "skills/qcc-ipr-portfolio/SKILL.md",
+      "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+      "license": "Apache-2.0",
+      "title": "企业知识产权与数字资产清单",
+      "summary": "整理专利、商标、著作权及互联网资产，明确数据覆盖范围。",
+      "scenarios": [
+        "企业调研"
+      ],
+      "compatibility": [
+        {
+          "tool": "企查查MCP/API与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "依赖企查查账号、授权的MCP/API与配额；数据能力、收费和可用字段以服务商当前规则为准。真实查询可能涉及个人信息，应先确认查询目的与权限。同名与历史线索需人工复核，不直接作为录用、授信或法律结论。未执行真实查询。",
+      "body_sha256": "acff7fcaaa394d1f9b80dd94c2788a2f5d3a4799a54717ccb869db16b3e838c3"
+    },
+    {
+      "schema_version": 1,
+      "id": "qcc-operation-pulse",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/qcc",
+      "path": "skills/qcc-operation-pulse/SKILL.md",
+      "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+      "license": "Apache-2.0",
+      "title": "企业经营动态与资质画像",
+      "summary": "按需要查看资质、招投标、招聘、融资和公告，保留来源与时间。",
+      "scenarios": [
+        "企业调研"
+      ],
+      "compatibility": [
+        {
+          "tool": "企查查MCP/API与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "依赖企查查账号、授权的MCP/API与配额；数据能力、收费和可用字段以服务商当前规则为准。真实查询可能涉及个人信息，应先确认查询目的与权限。同名与历史线索需人工复核，不直接作为录用、授信或法律结论。未执行真实查询。",
+      "body_sha256": "81685cfc5921cabc91eae2daed6a48567710bfa86d99a7db91b585be01ec4e0b"
+    },
+    {
+      "schema_version": 1,
+      "id": "qcc-ownership-trace",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/qcc",
+      "path": "skills/qcc-ownership-trace/SKILL.md",
+      "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+      "license": "Apache-2.0",
+      "title": "股权、实控人与受益所有人线索",
+      "summary": "整理股东、投资及变更线索；口径与结论需结合适用规则复核。",
+      "scenarios": [
+        "企业调研"
+      ],
+      "compatibility": [
+        {
+          "tool": "企查查MCP/API与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "依赖企查查账号、授权的MCP/API与配额；数据能力、收费和可用字段以服务商当前规则为准。真实查询可能涉及个人信息，应先确认查询目的与权限。同名与历史线索需人工复核，不直接作为录用、授信或法律结论。未执行真实查询。",
+      "body_sha256": "fc57b45d9a0a3abc075133ff1baad79f3a22241f0548c1a899dc6367cf571ec8"
+    },
+    {
+      "schema_version": 1,
+      "id": "qcc-person-portfolio",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/qcc",
+      "path": "skills/qcc-person-portfolio/SKILL.md",
+      "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+      "license": "Apache-2.0",
+      "title": "自然人关联企业清单",
+      "summary": "汇集任职、控制及关联企业并去重导出；同名线索需人工核对。",
+      "scenarios": [
+        "企业调研"
+      ],
+      "compatibility": [
+        {
+          "tool": "企查查MCP/API与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "依赖企查查账号、授权的MCP/API与配额；数据能力、收费和可用字段以服务商当前规则为准。真实查询可能涉及个人信息，应先确认查询目的与权限。同名与历史线索需人工复核，不直接作为录用、授信或法律结论。未执行真实查询。",
+      "body_sha256": "c2cb1aa9cd944225641924fd469d2865823c07ccfbbfece975ef82f5fd6061fa"
+    },
+    {
+      "schema_version": 1,
+      "id": "qcc-risk-screen",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/qcc",
+      "path": "skills/qcc-risk-screen/SKILL.md",
+      "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+      "license": "Apache-2.0",
+      "title": "企业风险线索扫描",
+      "summary": "按明确范围查询司法、经营异常、行政处罚等线索；注意调用配额与复核。",
+      "scenarios": [
+        "企业调研"
+      ],
+      "compatibility": [
+        {
+          "tool": "企查查MCP/API与Agent客户端",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "依赖企查查账号、授权的MCP/API与配额；数据能力、收费和可用字段以服务商当前规则为准。真实查询可能涉及个人信息，应先确认查询目的与权限。同名与历史线索需人工复核，不直接作为录用、授信或法律结论。未执行真实查询。",
+      "body_sha256": "a2e3be8365b6061a230ce6c7cd0c69c830416ec5b797f3bbffd1fc0c1580d18b"
+    },
+    {
+      "schema_version": 1,
+      "id": "demo-day-dossier",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/demo-day-dossier",
+      "path": "skills/demo-day-dossier/SKILL.md",
+      "ref": "45e2042692bd3fc7d061cf03f4e18cbef3fe1681",
+      "license": "MIT",
+      "title": "路演素材变成可查询的项目卷宗",
+      "summary": "从项目卡、照片和公开文章整理数据、全景页、调研表与报告。",
+      "scenarios": [
+        "写报告"
+      ],
+      "compatibility": [
+        {
+          "tool": "来源仓库的Agent与发布工具链",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "依赖来源仓库的模板、脚本和外部工具。原文中的平台规则、接口额度、模型及自动发布说明可能过时，使用前重新核实。收录不代表授权读取账号、上传素材、部署或发文；发布需使用者确认。未做端到端验证。",
+      "body_sha256": "bd5b49b4c965501b72add9a6f8cf2d9cabb5ed5bb2a2725f59bd5534eda9e2db"
+    },
+    {
+      "schema_version": 1,
+      "id": "wechat-article-publish",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/demo-day-dossier",
+      "path": "skills/wechat-article-publish/SKILL.md",
+      "ref": "45e2042692bd3fc7d061cf03f4e18cbef3fe1681",
+      "license": "MIT",
+      "title": "把已完成项目写成公众号文章",
+      "summary": "根据真实项目产物制作长文、配图和编辑器HTML，保留人工发布环节。",
+      "scenarios": [
+        "内容传播"
+      ],
+      "compatibility": [
+        {
+          "tool": "来源仓库的Agent与发布工具链",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "依赖来源仓库的模板、脚本和外部工具。原文中的平台规则、接口额度、模型及自动发布说明可能过时，使用前重新核实。收录不代表授权读取账号、上传素材、部署或发文；发布需使用者确认。未做端到端验证。",
+      "body_sha256": "aef5d6ae0bd7025b09eb2165056a3e2a9347452789f842d1857f20d7661d09ab"
+    },
+    {
+      "schema_version": 1,
+      "id": "x-publish",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/demo-day-dossier",
+      "path": "skills/x-publish/SKILL.md",
+      "ref": "45e2042692bd3fc7d061cf03f4e18cbef3fe1681",
+      "license": "MIT",
+      "title": "长文改写为X英文串帖",
+      "summary": "从已完成文章起草英文串帖与配图；API额度和发布路径需重新核实。",
+      "scenarios": [
+        "内容传播"
+      ],
+      "compatibility": [
+        {
+          "tool": "来源仓库的Agent与发布工具链",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "依赖来源仓库的模板、脚本和外部工具。原文中的平台规则、接口额度、模型及自动发布说明可能过时，使用前重新核实。收录不代表授权读取账号、上传素材、部署或发文；发布需使用者确认。未做端到端验证。",
+      "body_sha256": "94cdba76af87d2e6a6bf9a37788d432d0190d015fa66c501137606a5cb16b7f6"
+    },
+    {
+      "schema_version": 1,
+      "id": "xiaohongshu-publish",
+      "type": "skill",
+      "repository": "https://github.com/zhanglunet/demo-day-dossier",
+      "path": "skills/xiaohongshu-publish/SKILL.md",
+      "ref": "45e2042692bd3fc7d061cf03f4e18cbef3fe1681",
+      "license": "MIT",
+      "title": "长文改写为小红书图文笔记",
+      "summary": "将获准传播的文章改成短标题、正文和竖版配图，发布前人工核对。",
+      "scenarios": [
+        "内容传播"
+      ],
+      "compatibility": [
+        {
+          "tool": "来源仓库的Agent与发布工具链",
+          "verification": "unverified"
+        }
+      ],
+      "usage_notes": "依赖来源仓库的模板、脚本和外部工具。原文中的平台规则、接口额度、模型及自动发布说明可能过时，使用前重新核实。收录不代表授权读取账号、上传素材、部署或发文；发布需使用者确认。未做端到端验证。",
+      "body_sha256": "86bf00202ccd1fabfa6c78fd1f8c67d9a3d5903a5f2175c756e9553934f23795"
+    },
+    {
+      "id": "lark-reviewed-actions",
+      "type": "workflow",
+      "repository": "https://github.com/zhanglunet/lark-cli-review-workflow",
+      "path": "README.md",
+      "ref": "385e35e6e5ef704da323bb099fd2845717627046",
+      "license": "MIT",
+      "adaptation": true
+    },
+    {
+      "id": "model-evidence-expiry",
+      "type": "note",
+      "repository": "https://github.com/zhanglunet/open-free-router",
+      "path": "README.md",
+      "ref": "2e652a9a16e1f7b224005470a538361c1cd9e37b",
+      "license": "MIT",
+      "adaptation": true
+    }
+  ],
+  "excluded": [
+    {
+      "repo": "livepowers",
+      "path": "skills/using-livepowers/SKILL.md",
+      "reason": "总入口与18个独立技能重叠，仅收录任务技能"
+    }
+  ],
+  "deduplication": "按固定repo+path身份、规范化正文hash及任务职责检查；Livepowers根skills为规范来源，19个插件镜像不重复收录；using-livepowers总入口排除。已有16条中相似主题保留不同交付契约：skill-acceptance为验收方法概述，acceptance-gates为完整Livepowers门禁；reviewed-wiki为知识发布方法，mind-kit为安装技能。",
+  "omitted": "无明确许可仓库、纯上游fork、本轮与Skill/方法无关的站点和项目；不读取私有材料"
+}

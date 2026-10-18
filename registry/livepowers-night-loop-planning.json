@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "livepowers-night-loop-planning",
+  "type": "skill",
+  "repository": "https://github.com/zhanglunet/livepowers",
+  "path": "skills/night-loop-planning/SKILL.md",
+  "ref": "454fd2a0f882ada65f97392709872a71582596da",
+  "license": "MIT",
+  "title": "长程与夜间任务：可暂停、可恢复地规划",
+  "summary": "判断哪些任务适合延后执行，规划预算、分工、检查点和晨间交付。",
+  "scenarios": [
+    "研发"
+  ],
+  "compatibility": [
+    {
+      "tool": "Livepowers工具链与Agent客户端",
+      "verification": "unverified"
+    }
+  ],
+  "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。"
+}

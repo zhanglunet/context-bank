@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "livepowers-agent-harness-for-tools",
+  "type": "skill",
+  "repository": "https://github.com/zhanglunet/livepowers",
+  "path": "skills/agent-harness-for-tools/SKILL.md",
+  "ref": "454fd2a0f882ada65f97392709872a71582596da",
+  "license": "MIT",
+  "title": "工具已有，Agent用不稳：补齐执行约束",
+  "summary": "围绕已有CLI、MCP和API定义计划、检查点、权限与失败恢复。",
+  "scenarios": [
+    "研发"
+  ],
+  "compatibility": [
+    {
+      "tool": "Livepowers工具链与Agent客户端",
+      "verification": "unverified"
+    }
+  ],
+  "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。"
+}

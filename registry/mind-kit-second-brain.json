@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "mind-kit-second-brain",
+  "type": "skill",
+  "repository": "https://github.com/zhanglunet/mind-kit",
+  "path": "skills/workbuddy-second-brain/SKILL.md",
+  "ref": "9e70ebce2cbe0c04858437dd490bfac3a1052f4a",
+  "license": "MIT",
+  "title": "安装自己的本地第二大脑",
+  "summary": "公开版只初始化本地Vault；飞书同步需要另行获得完整发行包。",
+  "scenarios": [
+    "知识管理"
+  ],
+  "compatibility": [
+    {
+      "tool": "本机Vault安装环境",
+      "verification": "unverified"
+    }
+  ],
+  "usage_notes": "公开版是Vault-only，不含飞书同步连接器；不要把完整发行包能力当成公开版能力。需要来源仓库安装器与Python环境。个人资料留在自己的Vault，不上传上下文银行。未在本机执行安装或同步。"
+}

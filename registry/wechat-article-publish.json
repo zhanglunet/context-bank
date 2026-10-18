@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "wechat-article-publish",
+  "type": "skill",
+  "repository": "https://github.com/zhanglunet/demo-day-dossier",
+  "path": "skills/wechat-article-publish/SKILL.md",
+  "ref": "45e2042692bd3fc7d061cf03f4e18cbef3fe1681",
+  "license": "MIT",
+  "title": "把已完成项目写成公众号文章",
+  "summary": "根据真实项目产物制作长文、配图和编辑器HTML，保留人工发布环节。",
+  "scenarios": [
+    "内容传播"
+  ],
+  "compatibility": [
+    {
+      "tool": "来源仓库的Agent与发布工具链",
+      "verification": "unverified"
+    }
+  ],
+  "usage_notes": "依赖来源仓库的模板、脚本和外部工具。原文中的平台规则、接口额度、模型及自动发布说明可能过时，使用前重新核实。收录不代表授权读取账号、上传素材、部署或发文；发布需使用者确认。未做端到端验证。"
+}
