@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "trend-workflow",
+  "type": "skill",
+  "repository": "https://github.com/zhanglunet/trend-workflow",
+  "path": "skills/trend-workflow/SKILL.md",
+  "ref": "1bd65fa15470099e05afd0c289036c8dcd067fed",
+  "license": "MIT"
+}
