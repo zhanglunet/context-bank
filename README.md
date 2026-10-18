@@ -27,3 +27,11 @@ main通过CI后构建并发布GitHub Pages；内容PR合并即可更新。自定
 ## 许可
 
 网站代码与skills：MIT（LICENSE）。本站原创content：CC BY 4.0（content/LICENSE.md）。外部索引保留各自许可。
+
+## 从实际工作开始
+
+首页按六个方向阅读：周报与报告、管理上下文、沉淀与推广最佳实践、CLI小系统、研发与异步交付、调研与传播。原49条细目可展开查看，旧详情链接保留。
+
+34个Skill详情提供固定来源版本的命令，切换Codex、Claude Code或Cursor安装目标，并分别列出运行依赖和使用任务。WorkBuddy/其他AI先走手动方法路径，不宣称自动导入或执行已测。安装只复制技能定义，不自动安装业务CLI或取得账号授权。
+
+实测记录：[合成任务与环境](site/evidence/2026-10-18/report.md)。source-ledger、table-check由Codex显式调用读取技能后产出合成周报和检查清单；outcome-ledger通过CLI台账闭环。未做其他工具、自动触发成功率或真实业务收益测试。

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "source-ledger",
+    "tool": "Codex CLI",
+    "scope": "synthetic-execution",
+    "status": "passed",
+    "date": "2026-10-18",
+    "report": "./evidence/2026-10-18/report.html",
+    "detail": "显式技能＋合成任务验收通过；不代表其他工具、自动触发或真实业务验证。"
+  },
+  {
+    "id": "table-check",
+    "tool": "Codex CLI",
+    "scope": "synthetic-execution",
+    "status": "passed",
+    "date": "2026-10-18",
+    "report": "./evidence/2026-10-18/report.html",
+    "detail": "显式技能＋合成任务验收通过；不代表其他工具、自动触发或真实业务验证。"
+  },
+  {
+    "id": "livepowers-outcome-ledger",
+    "tool": "Livepowers CLI",
+    "scope": "synthetic-execution",
+    "status": "passed",
+    "date": "2026-10-18",
+    "report": "./evidence/2026-10-18/report.html",
+    "detail": "Livepowers 1.5.0合成台账CLI闭环通过；不代表其他Agent自主执行。"
+  }
+]

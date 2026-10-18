@@ -1,0 +1,410 @@
+{
+  "source-ledger": {
+    "repository": "https://github.com/zhanglunet/context-bank",
+    "ref": "ee88200960b62f1fae0690e8fe006fa49ffa1867",
+    "name": "source-ledger",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "只需可以读取本地文件的Agent；本次以Codex CLI验证，原始材料需自行授权。",
+      "安装不会读取或上传个人工作目录。"
+    ],
+    "startPrompt": "请使用 source-ledger，依据我选定的本周工作记录先建立带来源编号的事实清单，再生成进展、问题、下一步和待确认项。区分草稿、测试通过、已上线与业务验收，不补造负责人或日期。结果保存在我指定的工作目录，完成后回看原材料核对。"
+  },
+  "table-check": {
+    "repository": "https://github.com/zhanglunet/context-bank",
+    "ref": "ee88200960b62f1fae0690e8fe006fa49ffa1867",
+    "name": "table-check",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "只需可以读取本地文件的Agent；本次以Codex CLI验证，原始材料需自行授权。",
+      "安装不会读取或上传个人工作目录。"
+    ],
+    "startPrompt": "请使用 table-check 检查我选定的表格：先列字段、单位、空值、重复记录和币种，确认指标定义、去重及汇率口径后再计算。没有确认时只给问题清单，不跨币种直接汇总。"
+  },
+  "demo-day-dossier": {
+    "repository": "https://github.com/zhanglunet/demo-day-dossier",
+    "ref": "45e2042692bd3fc7d061cf03f4e18cbef3fe1681",
+    "name": "demo-day-dossier",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "需要完整来源目录中的模板、脚本及对应渲染/截图工具，单个MD不能独立执行整个流程。",
+      "公众号、小红书、X需用户自己的账号或API权限；额度和平台规则需实时核对，最终发布需用户确认。"
+    ],
+    "startPrompt": "请使用 demo-day-dossier 技能，帮我完成“路演素材变成可查询的项目卷宗”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-acceptance-gates": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "acceptance-gates",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 acceptance-gates 技能，帮我完成“能力上线前的四道验收门”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-agent-harness-for-tools": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "agent-harness-for-tools",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 agent-harness-for-tools 技能，帮我完成“工具已有，Agent用不稳：补齐执行约束”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-auditable-agent-comms": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "auditable-agent-comms",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 auditable-agent-comms 技能，帮我完成“让多Agent协作有据可查”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-crystallize-to-system1": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "crystallize-to-system1",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 crystallize-to-system1 技能，帮我完成“把成功探索固化成可复用能力”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-digital-role-spec": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "digital-role-spec",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 digital-role-spec 技能，帮我完成“把岗位拆成人与Agent的职责”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-env-scan-ontology": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "env-scan-ontology",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 env-scan-ontology 技能，帮我完成“接入新系统，先建立环境与业务对象清单”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-explore-with-evidence": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "explore-with-evidence",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 explore-with-evidence 技能，帮我完成“新任务探索：先定预算，再留证据”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-fde-delivery": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "fde-delivery",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 fde-delivery 技能，帮我完成“现场交付之后，留下可复用资产”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-living-surface": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "living-surface",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 living-surface 技能，帮我完成“把一次性分析变成稳定功能”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-night-loop-planning": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "night-loop-planning",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 night-loop-planning 技能，帮我完成“长程与夜间任务：可暂停、可恢复地规划”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-nightly-crystallization-review": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "nightly-crystallization-review",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 nightly-crystallization-review 技能，帮我完成“收工复盘：从证据里挑固化候选”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-oltp-action-safety": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "oltp-action-safety",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 oltp-action-safety 技能，帮我完成“生产写操作：预演、审批、执行与回撤”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-ontology-evolution": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "ontology-evolution",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 ontology-evolution 技能，帮我完成“业务定义变了，怎样留下变更依据”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-ontology-grounded-spec": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "ontology-grounded-spec",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 ontology-grounded-spec 技能，帮我完成“业务需求先写清对象、口径与验收”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-outcome-ledger": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "outcome-ledger",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 outcome-ledger 技能，帮我完成“AI到底省了多少：建立结果与成本台账”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-system1-first": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "system1-first",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 system1-first 技能，帮我完成“先找现成能力，再从头推理”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-takeover-handling": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "takeover-handling",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 takeover-handling 技能，帮我完成“Agent卡住后，把接管材料交清楚”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "livepowers-writing-livepowers-skills": {
+    "repository": "https://github.com/zhanglunet/livepowers",
+    "ref": "454fd2a0f882ada65f97392709872a71582596da",
+    "name": "writing-livepowers-skills",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "运行lp CLI另需Python ≥3.9；在项目目录使用 npx --yes --package=livepowers@1.5.0 lp --help。",
+      "模板、相邻技能、注册表等完整资产仍来自Livepowers仓库，安装单个Skill不等于完整工具链。"
+    ],
+    "startPrompt": "请使用 writing-livepowers-skills 技能，帮我完成“从失败回放开始编写团队Skill”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "mind-kit-second-brain": {
+    "repository": "https://github.com/zhanglunet/mind-kit",
+    "ref": "9e70ebce2cbe0c04858437dd490bfac3a1052f4a",
+    "name": "second-brain-feishu",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "公开版仅Vault-only；安装器需Git与Python ≥3.9，编译引擎sage-wiki需另装。",
+      "不包含飞书同步连接器；安装技能不会自动创建知识库或上传资料。"
+    ],
+    "startPrompt": "请使用 second-brain-feishu 技能，帮我完成“安装自己的本地第二大脑”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "qcc-anchor": {
+    "repository": "https://github.com/zhanglunet/qcc",
+    "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+    "name": "qcc-anchor",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "需要获准使用的企查查账号、API/MCP、配额与网络；查询结果不是录用、授信或法律决定。",
+      "Python路径需Python ≥3.10与来源仓库客户端；导出Excel还需skills依赖。密钥只留本机配置。"
+    ],
+    "startPrompt": "请使用 qcc-anchor 技能，帮我完成“查企业前，先锁定唯一主体”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "qcc-basic-profile": {
+    "repository": "https://github.com/zhanglunet/qcc",
+    "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+    "name": "qcc-basic-profile",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "需要获准使用的企查查账号、API/MCP、配额与网络；查询结果不是录用、授信或法律决定。",
+      "Python路径需Python ≥3.10与来源仓库客户端；导出Excel还需skills依赖。密钥只留本机配置。"
+    ],
+    "startPrompt": "请使用 qcc-basic-profile 技能，帮我完成“企业基础档案：一次整理工商概况”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "qcc-executive-background": {
+    "repository": "https://github.com/zhanglunet/qcc",
+    "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+    "name": "qcc-executive-background",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "需要获准使用的企查查账号、API/MCP、配额与网络；查询结果不是录用、授信或法律决定。",
+      "Python路径需Python ≥3.10与来源仓库客户端；导出Excel还需skills依赖。密钥只留本机配置。"
+    ],
+    "startPrompt": "请使用 qcc-executive-background 技能，帮我完成“高管关联与风险资料核对”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "qcc-ipr-portfolio": {
+    "repository": "https://github.com/zhanglunet/qcc",
+    "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+    "name": "qcc-ipr-portfolio",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "需要获准使用的企查查账号、API/MCP、配额与网络；查询结果不是录用、授信或法律决定。",
+      "Python路径需Python ≥3.10与来源仓库客户端；导出Excel还需skills依赖。密钥只留本机配置。"
+    ],
+    "startPrompt": "请使用 qcc-ipr-portfolio 技能，帮我完成“企业知识产权与数字资产清单”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "qcc-operation-pulse": {
+    "repository": "https://github.com/zhanglunet/qcc",
+    "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+    "name": "qcc-operation-pulse",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "需要获准使用的企查查账号、API/MCP、配额与网络；查询结果不是录用、授信或法律决定。",
+      "Python路径需Python ≥3.10与来源仓库客户端；导出Excel还需skills依赖。密钥只留本机配置。"
+    ],
+    "startPrompt": "请使用 qcc-operation-pulse 技能，帮我完成“企业经营动态与资质画像”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "qcc-ownership-trace": {
+    "repository": "https://github.com/zhanglunet/qcc",
+    "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+    "name": "qcc-ownership-trace",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "需要获准使用的企查查账号、API/MCP、配额与网络；查询结果不是录用、授信或法律决定。",
+      "Python路径需Python ≥3.10与来源仓库客户端；导出Excel还需skills依赖。密钥只留本机配置。"
+    ],
+    "startPrompt": "请使用 qcc-ownership-trace 技能，帮我完成“股权、实控人与受益所有人线索”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "qcc-person-portfolio": {
+    "repository": "https://github.com/zhanglunet/qcc",
+    "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+    "name": "qcc-person-portfolio",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "需要获准使用的企查查账号、API/MCP、配额与网络；查询结果不是录用、授信或法律决定。",
+      "Python路径需Python ≥3.10与来源仓库客户端；导出Excel还需skills依赖。密钥只留本机配置。"
+    ],
+    "startPrompt": "请使用 qcc-person-portfolio 技能，帮我完成“自然人关联企业清单”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "qcc-risk-screen": {
+    "repository": "https://github.com/zhanglunet/qcc",
+    "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+    "name": "qcc-risk-screen",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "需要获准使用的企查查账号、API/MCP、配额与网络；查询结果不是录用、授信或法律决定。",
+      "Python路径需Python ≥3.10与来源仓库客户端；导出Excel还需skills依赖。密钥只留本机配置。"
+    ],
+    "startPrompt": "请使用 qcc-risk-screen 技能，帮我完成“企业风险线索扫描”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "trend-workflow": {
+    "repository": "https://github.com/zhanglunet/trend-workflow",
+    "ref": "1bd65fa15470099e05afd0c289036c8dcd067fed",
+    "name": "trend-workflow",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "需要gh CLI、自己的仓库清单与有权写入的中央仓库。",
+      "抓取日报与写Issue/PR要分别确认范围；安装不代表获准合并PR。"
+    ],
+    "startPrompt": "请使用 trend-workflow 技能，帮我完成“trend-workflow”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "wechat-article-publish": {
+    "repository": "https://github.com/zhanglunet/demo-day-dossier",
+    "ref": "45e2042692bd3fc7d061cf03f4e18cbef3fe1681",
+    "name": "wechat-article-publish",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "需要完整来源目录中的模板、脚本及对应渲染/截图工具，单个MD不能独立执行整个流程。",
+      "公众号、小红书、X需用户自己的账号或API权限；额度和平台规则需实时核对，最终发布需用户确认。"
+    ],
+    "startPrompt": "请使用 wechat-article-publish 技能，帮我完成“把已完成项目写成公众号文章”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "x-publish": {
+    "repository": "https://github.com/zhanglunet/demo-day-dossier",
+    "ref": "45e2042692bd3fc7d061cf03f4e18cbef3fe1681",
+    "name": "x-publish",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "需要完整来源目录中的模板、脚本及对应渲染/截图工具，单个MD不能独立执行整个流程。",
+      "公众号、小红书、X需用户自己的账号或API权限；额度和平台规则需实时核对，最终发布需用户确认。"
+    ],
+    "startPrompt": "请使用 x-publish 技能，帮我完成“长文改写为X英文串帖”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  },
+  "xiaohongshu-publish": {
+    "repository": "https://github.com/zhanglunet/demo-day-dossier",
+    "ref": "45e2042692bd3fc7d061cf03f4e18cbef3fe1681",
+    "name": "xiaohongshu-publish",
+    "dependencies": [
+      "命令安装需 Node.js ≥22.20、npm 和 Git；只写当前项目的技能目录，不加 -g。",
+      "宿主需支持Agent Skills与本地文件读取。下方三个客户端提供安装目标，未测执行的不宣称通过。",
+      "需要完整来源目录中的模板、脚本及对应渲染/截图工具，单个MD不能独立执行整个流程。",
+      "公众号、小红书、X需用户自己的账号或API权限；额度和平台规则需实时核对，最终发布需用户确认。"
+    ],
+    "startPrompt": "请使用 xiaohongshu-publish 技能，帮我完成“长文改写为小红书图文笔记”。先阅读技能，核对依赖、输入权限和输出要求，只读取我明确选定的材料。缺少材料、权限或业务口径时先列待确认项；给出带来源的产物与验收清单。未经我授权，不发送、发布、部署或修改生产数据。"
+  }
+}

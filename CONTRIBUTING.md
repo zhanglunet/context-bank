@@ -30,3 +30,7 @@
 ## 外部技能的整理信息
 
 registry 可以附带 `title`、`summary`（200字以内）、`scenarios`、`compatibility` 和 `usage_notes`，仅用于目录展示，不修改上游技能正文。兼容性始终标记 unverified；usage_notes 写明完整仓库依赖、权限和未实测边界。构建读取固定版本的根目录 LICENSE，下载 MD 保留原文并附来源、使用边界和许可证全文。来源未提供根 LICENSE 时先不收录。
+
+## 任务指南与维护者证据
+
+editorial/paths.json按完整任务归组，每条方法只归一个主方向，推荐项须在该方向内。editorial/skills.json保存经核对的来源name、固定版本、运行依赖和起步任务；安装命令由受限字段生成，禁止投稿者提供任意脚本作为安装命令。editorial/evidence.json是维护者审核的具体工具、输入范围与产物证据，不由作者自授兼容性验证。新增证据必须保留环境、失败、恢复和可核对产物，只公开合成或明确获准的材料。
