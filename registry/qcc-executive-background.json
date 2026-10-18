@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "qcc-executive-background",
+  "type": "skill",
+  "repository": "https://github.com/zhanglunet/qcc",
+  "path": "skills/qcc-executive-background/SKILL.md",
+  "ref": "76b63d703bfe5508154c7bfcd678c55a62d6200d",
+  "license": "Apache-2.0",
+  "title": "高管关联与风险资料核对",
+  "summary": "以企业主体和姓名双重限定查询范围，区分当前与历史记录。",
+  "scenarios": [
+    "企业调研"
+  ],
+  "compatibility": [
+    {
+      "tool": "企查查MCP/API与Agent客户端",
+      "verification": "unverified"
+    }
+  ],
+  "usage_notes": "依赖企查查账号、授权的MCP/API与配额；数据能力、收费和可用字段以服务商当前规则为准。真实查询可能涉及个人信息，应先确认查询目的与权限。同名与历史线索需人工复核，不直接作为录用、授信或法律结论。未执行真实查询。"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "livepowers-living-surface",
+  "type": "skill",
+  "repository": "https://github.com/zhanglunet/livepowers",
+  "path": "skills/living-surface/SKILL.md",
+  "ref": "454fd2a0f882ada65f97392709872a71582596da",
+  "license": "MIT",
+  "title": "把一次性分析变成稳定功能",
+  "summary": "区分固定页面、临时分析和新增固化结构，新增功能经过验收再上线。",
+  "scenarios": [
+    "研发"
+  ],
+  "compatibility": [
+    {
+      "tool": "Livepowers工具链与Agent客户端",
+      "verification": "unverified"
+    }
+  ],
+  "usage_notes": "原版技能依赖 Livepowers 的 lp CLI、模板、能力注册表及相邻技能；单个MD不是完整运行包。按来源仓库安装并核对具体能力。未做平台执行验证，不会因收录自动开启长程任务、调用工具或写入生产。"
+}

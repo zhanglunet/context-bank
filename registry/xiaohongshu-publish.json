@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "xiaohongshu-publish",
+  "type": "skill",
+  "repository": "https://github.com/zhanglunet/demo-day-dossier",
+  "path": "skills/xiaohongshu-publish/SKILL.md",
+  "ref": "45e2042692bd3fc7d061cf03f4e18cbef3fe1681",
+  "license": "MIT",
+  "title": "长文改写为小红书图文笔记",
+  "summary": "将获准传播的文章改成短标题、正文和竖版配图，发布前人工核对。",
+  "scenarios": [
+    "内容传播"
+  ],
+  "compatibility": [
+    {
+      "tool": "来源仓库的Agent与发布工具链",
+      "verification": "unverified"
+    }
+  ],
+  "usage_notes": "依赖来源仓库的模板、脚本和外部工具。原文中的平台规则、接口额度、模型及自动发布说明可能过时，使用前重新核实。收录不代表授权读取账号、上传素材、部署或发文；发布需使用者确认。未做端到端验证。"
+}

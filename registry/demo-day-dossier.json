@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "demo-day-dossier",
+  "type": "skill",
+  "repository": "https://github.com/zhanglunet/demo-day-dossier",
+  "path": "skills/demo-day-dossier/SKILL.md",
+  "ref": "45e2042692bd3fc7d061cf03f4e18cbef3fe1681",
+  "license": "MIT",
+  "title": "路演素材变成可查询的项目卷宗",
+  "summary": "从项目卡、照片和公开文章整理数据、全景页、调研表与报告。",
+  "scenarios": [
+    "写报告"
+  ],
+  "compatibility": [
+    {
+      "tool": "来源仓库的Agent与发布工具链",
+      "verification": "unverified"
+    }
+  ],
+  "usage_notes": "依赖来源仓库的模板、脚本和外部工具。原文中的平台规则、接口额度、模型及自动发布说明可能过时，使用前重新核实。收录不代表授权读取账号、上传素材、部署或发文；发布需使用者确认。未做端到端验证。"
+}
